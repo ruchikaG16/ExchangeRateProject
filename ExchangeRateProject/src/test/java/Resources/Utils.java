@@ -31,7 +31,7 @@ public RequestSpecification requestSpecification() throws IOException {
 	public String getGlobalVariable(String key) throws IOException {
 		
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("\\Users\\windows 10\\eclipse\\jee-oxygen2\\ExchangeRateProject\\src\\test\\java\\Resources\\global.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\windows 10\\git\\ExchangeRateProject\\ExchangeRateProject\\src\\test\\java\\Resources\\global.properties");
 		prop.load(fis);
 		return prop.getProperty(key);
 	}
